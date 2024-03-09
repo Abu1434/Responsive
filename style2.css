@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202C36;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B3844;
+    color: white;
+    padding: 30px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.mode {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.row_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-section {
+    height: 750px;
+}
+
+.container {
+    width: 80%;
+    margin-top: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    margin-top: 80px;
+    gap: 144px;
+}
+
+.right {
+    gap: 117px;
+}
+
+.description {
+    color: white;
+}
+
+.flag-img img {
+    width: 560px;
+    height: 400px;
+}
+
+.backBtn a {
+    text-decoration: none;
+}
+
+.backBtn button {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    margin-top: 80px;
+    margin-left: 143px;
+    background-color: #2B3844;
+    color: white;
+    width: 136px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.description h2 {
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 39px;
+}
+
+.first-texts p span {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.second-texts p span {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.first-texts p {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.second-texts p {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.first-texts {
+    margin-top: 23px;
+}
+
+.second-texts {
+    margin-top: 23px;
+}
+
+.under {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.under p span {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 70px;
+    width: 127px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btns button {
+    background-color: #2B3844;
+    border: none;
+    border-radius: 2px;
+}
+
+.under .btns button {
+    width: 96px;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 376px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2B3844;
+        color: white;
+    }
+
+    .mode {
+        display: flex;
+        align-items: center;
+    }
+
+    .backBtn button {
+        margin-top: 40px;
+        margin-left: 28px;
+        width: 104px !important;
+        padding: 6px !important;
+    }
+
+    .main-section {
+        height: 900px !important;
+    }
+
+    .left {
+        display: block;
+    }
+
+    .flag-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .abu {
+        width: 320px !important;
+        height: 229px !important;
+    }
+
+    .right {
+        display: block; 
+    }
+
+    .aaa {
+        margin-top: 16px;
+        margin-left: 28px;
+    }
+
+    .description h2 {
+        margin-top: 44px;
+        margin-left: 28px;
+    }
+
+    .second-texts {
+        margin-top: 32px;
+    }
+
+    .under {
+        margin-top: 32px;
+    }
+
+    .btns {
+        display: block;
+    }
+
+    .btns button {
+        margin-top: 16px;
+    }
+}
